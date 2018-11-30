@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render app 1`] = `
+Array [
+  <div
+    className="App"
+  >
+    <div
+      className="header-cls"
+    >
+      Day Difference Calculator
+    </div>
+    <div
+      className="m-bl-10"
+    >
+      <Alert
+        closeAriaLabel="Close"
+        color="info"
+        fade={true}
+        isOpen={true}
+        tag="div"
+        transition={
+          Object {
+            "appear": true,
+            "baseClass": "fade",
+            "baseClassActive": "show",
+            "enter": true,
+            "exit": true,
+            "in": true,
+            "mountOnEnter": false,
+            "onEnter": [Function],
+            "onEntered": [Function],
+            "onEntering": [Function],
+            "onExit": [Function],
+            "onExited": [Function],
+            "onExiting": [Function],
+            "tag": "div",
+            "timeout": 150,
+            "unmountOnExit": true,
+          }
+        }
+      >
+         
+        Please select to and from dates.
+      </Alert>
+    </div>
+    <div
+      className="m-bl-10"
+    >
+      <InputDate
+        chng={[Function]}
+        date={null}
+        dateText="From Date"
+        valid={true}
+      />
+    </div>
+    <div
+      className="m-bl-10"
+    >
+      <InputDate
+        chng={[Function]}
+        date={null}
+        dateText="To Date"
+        valid={true}
+      />
+    </div>
+    <div
+      className="m-bl-10 algn"
+    >
+      <Button
+        color="secondary"
+        disabled={true}
+        onClick={[Function]}
+        tag="button"
+      >
+        Calculate
+      </Button>
+    </div>
+    <div
+      className="m-bl-10"
+    />
+  </div>,
+]
+`;
+
+exports[`Input Date should render Input date 1`] = `
+Array [
+  <div
+    className="main"
+  >
+    <div
+      className="child"
+    >
+      undefined :
+    </div>
+    <div
+      className="child"
+    >
+        
+      <DatePicker
+        allowSameDay={false}
+        className="error"
+        dateFormat="dd/MM/YYYY"
+        dateFormatCalendar="LLLL yyyy"
+        disabled={false}
+        disabledKeyboardNavigation={false}
+        dropdownMode="scroll"
+        monthsShown={1}
+        nextMonthButtonLabel="Next month"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClickOutside={[Function]}
+        onFocus={[Function]}
+        onInputClick={[Function]}
+        onInputError={[Function]}
+        onKeyDown={[Function]}
+        onMonthChange={[Function]}
+        onSelect={[Function]}
+        onYearChange={[Function]}
+        preventOpenOnFocus={false}
+        previousMonthButtonLabel="Previous Month"
+        readOnly={false}
+        renderDayContents={[Function]}
+        shouldCloseOnSelect={true}
+        showTimeSelect={false}
+        timeCaption="Time"
+        timeIntervals={30}
+        withPortal={false}
+      />
+    </div>
+  </div>,
+]
+`;
