@@ -44,6 +44,7 @@ class App extends Component {
           else{
           this.setState({disabled:true,
                         startDateValid:false,
+                        endDateValid:true,
                         message:"Please select a from date.",
                         startDate:date,
                         finalResult:null,
@@ -64,6 +65,7 @@ class App extends Component {
                 this.setState({disabled:true,
                             startDateValid:false,
                             startDate:date,
+                            endDateValid:true,
                             message:"To date must be after from date.",
                             finalResult:null,
                             alert:"danger"});
@@ -98,6 +100,7 @@ class App extends Component {
                           finalResult:null,
                           alert:"danger",
                           endDateValid:false,
+                          startDateValid:true,
                           message:"Please select a to date."});
           }     
     }
@@ -114,6 +117,7 @@ class App extends Component {
           else if(new Date(date)<new Date(this.state.startDate)){
             this.setState({disabled:true,
                             endDateValid:false,
+                            startDateValid:true,
                             finalResult:null,
                             endDate:date,
                             alert:"danger",
